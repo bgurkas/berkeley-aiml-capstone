@@ -19,16 +19,18 @@ The MovieLens 100K dataset found [here](https://grouplens.org/datasets/movielens
 - SURPRISE Library for recommender systems
 
 #### Results
-blorp
+- Ratings for the Movie IDs associated with each movie were found to be sparse. Not every Movie ID had been rated, and ratings seem centered around Movie IDs 0-12500.
+- Genre data seems to be heavily imbalanced in favor of more Drama and Comedy movies compared to other genres. This will introduce a bias if the model produced with this dataset were to be applied to a more balanced dataset.
+- The ratings don't seem to be correlated too heavily with any of the genres.
 
 #### Next steps
+Include the user-defined tags in the predictions.
+
 Incorporate a bigger dataset, like the MovieLens 1M dataset, which also includes information about how strongly the user-defined tags relate to the movies they rated.
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [Initial Exploration](eda.ipynb)
 
 
 ##### Contact and Further Information
