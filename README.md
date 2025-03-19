@@ -12,7 +12,7 @@
     - [Modeling](#modeling)
         - [Clustering](#clustering-to-build-user-profiles)
         - [Principal Component Analysis](#dimensionality-reduction-with-principal-component-analysis)
-        - [Collaborat9ive Filtering](#collaborative-filtering-using-the-surprise-library)
+        - [Collaborative Filtering](#collaborative-filtering-using-the-surprise-library)
 6) [Results](#results)
     - [Pre-training](#pre-training)
     - [Post-training](#post-training)
